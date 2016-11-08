@@ -411,7 +411,7 @@ public class interfaceExpreg extends javax.swing.JFrame {
                      builder.redirectOutput(new File("epsilon.png"));
                 
                      Process p = builder.start();
-                 ProcessBuilder builder2 = new ProcessBuilder("display", "epsilon.png");
+                 ProcessBuilder builder2 = new ProcessBuilder("open", "epsilon.png");
                         
                      Process p2 = builder2.start();
              
@@ -427,7 +427,7 @@ public class interfaceExpreg extends javax.swing.JFrame {
                      builder.redirectOutput(new File("optimal.png"));
                 
                      Process p = builder.start();
-                 ProcessBuilder builder2 = new ProcessBuilder("display", "optimal.png");
+                 ProcessBuilder builder2 = new ProcessBuilder("open", "optimal.png");
                         
                      Process p2 = builder2.start();
              
@@ -586,7 +586,7 @@ public class interfaceExpreg extends javax.swing.JFrame {
                      builder.redirectOutput(new File("deterministe.png"));
                 
                      Process p = builder.start();
-                 ProcessBuilder builder2 = new ProcessBuilder("display", "deterministe.png");
+                 ProcessBuilder builder2 = new ProcessBuilder("open", "deterministe.png");
                         
                      Process p2 = builder2.start();
              
@@ -826,7 +826,7 @@ public class interfaceExpreg extends javax.swing.JFrame {
                      builder.redirectOutput(new File("deterministe2.png"));
                 
                      Process p = builder.start();
-                 ProcessBuilder builder2 = new ProcessBuilder("display", "deterministe2.png");
+                 ProcessBuilder builder2 = new ProcessBuilder("open", "deterministe2.png");
                         
                      Process p2 = builder2.start();
              
@@ -842,7 +842,7 @@ public class interfaceExpreg extends javax.swing.JFrame {
                      builder.redirectOutput(new File("optimal2.png"));
                 
                      Process p = builder.start();
-                 ProcessBuilder builder2 = new ProcessBuilder("display", "optimal2.png");
+                 ProcessBuilder builder2 = new ProcessBuilder("open", "optimal2.png");
                         
                      Process p2 = builder2.start();
              
@@ -858,7 +858,7 @@ public class interfaceExpreg extends javax.swing.JFrame {
                      builder.redirectOutput(new File("graphe.png"));
                 
                      Process p = builder.start();
-                 ProcessBuilder builder2 = new ProcessBuilder("display", "graphe.png");
+                 ProcessBuilder builder2 = new ProcessBuilder("open", "graphe.png");
                         
                      Process p2 = builder2.start();
              
